@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="962de7878a144592b39e3373292631ee" Name="Diagram1">
+        <EntityTypeShape EntityType="TradeModel.Category" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Manufacturer" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Order" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.PickupPoint" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Product" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Provider" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.Role" Width="1.5" PointX="5.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TradeModel.User" Width="1.5" PointX="8" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="TradeModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Order_PickupPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK_Product_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.FK__User__UserRole__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="TradeModel.OrderProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
